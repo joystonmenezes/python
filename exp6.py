@@ -1,0 +1,5 @@
+st=raw_input("enter the sequence ")
+l=st.split(",")
+l.sort()
+y= ",".join(l)
+print(y)
